@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/delete/static/css/main.d0b0167b.css",
+    "main.js": "/delete/static/js/main.cdb0e622.js",
+    "static/js/787.ae0d8d37.chunk.js": "/delete/static/js/787.ae0d8d37.chunk.js",
+    "static/media/cafe.png": "/delete/static/media/cafe.73c04e3683a3e6498239.png",
+    "static/media/tienda.png": "/delete/static/media/tienda.cffe2d84c1640df0b8cd.png",
+    "static/media/bootstrap-1.jpg": "/delete/static/media/bootstrap-1.86197b58ebee2a74ae9d.jpg",
+    "static/media/new.webp": "/delete/static/media/new.583dc41aa6e22ccf70a8.webp",
+    "static/media/spring-boot.jpeg": "/delete/static/media/spring-boot.3b8be5ae65a7f756957e.jpeg",
+    "static/media/javasc.png": "/delete/static/media/javasc.d90a08fd140cdd970880.png",
+    "static/media/react.jpg": "/delete/static/media/react.f1b0721e42a165f97dff.jpg",
+    "static/media/Java.jpg": "/delete/static/media/Java.a801c9b7b4c434518c44.jpg",
+    "static/media/crud.png": "/delete/static/media/crud.aaf13da9ba2ad903ae78.png",
+    "index.html": "/delete/index.html",
+    "main.d0b0167b.css.map": "/delete/static/css/main.d0b0167b.css.map",
+    "main.cdb0e622.js.map": "/delete/static/js/main.cdb0e622.js.map",
+    "787.ae0d8d37.chunk.js.map": "/delete/static/js/787.ae0d8d37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0b0167b.css",
+    "static/js/main.cdb0e622.js"
+  ]
+}
