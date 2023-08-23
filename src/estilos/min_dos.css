@@ -1,0 +1,266 @@
+.contenedor_general_dos{
+    display: grid;
+    grid-template-columns: (2,1fr);
+    grid-template-areas: "t s";
+    align-items: start;
+    color: #fff;
+   
+}
+.fondo{
+    position: absolute;
+     width: 100%;
+     height: 100%;
+    opacity: 0.5;
+    -webkit-box-shadow: 5px 5px 40px 30px rgba(139,139,139,0.7), inset 0px 0px 0px 46px rgba(139,139,139,0.64); 
+    box-shadow: 5px 5px 40px 30px rgba(139,139,139,0.7), inset 0px 0px 0px 46px rgba(139,139,139,0.64);
+   
+}
+.contendor_img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 12;
+    border: none;
+}
+.contenido_prin{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    z-index: 16;
+    left: 50%;
+    height: 50px;
+  }
+
+.contenedor_min_dos{
+    transition: 1s;
+    object-fit: cover;
+    grid-area: t;
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow:  hidden;
+    background-color: #000; 
+}
+.contenedor_min_tres{
+    transition: 1s;
+    grid-area: s;
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow:  hidden;
+    background-color: #fff; 
+}
+.image__java{
+    position: absolute;
+    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.contendeor_d_java{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+   
+    animation: dr 8s ease-in-out infinite;
+}
+.contenedor_d_spring{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 50%;
+    border-radius: 50%;
+    
+    animation: dr 8s ease-in-out infinite;
+
+}
+.img_spring{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.contenedor_d_mysql{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 50%;
+    border-radius: 50%;
+    bottom: 50%;
+    animation: dt 9s linear infinite;
+}
+
+.img_mysq{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.backend{
+    position: absolute;
+    width: 70%;
+    height: 10%;
+    bottom: 20%;
+    right: 100%;
+    color: #fff;
+    transition: 2s;
+}
+.ti_p{
+    transform: translateX(590px);
+    color: #fff;
+    overflow: hidden;
+}
+.lenguaje_back{
+  position: relative;
+  font-size: 40px;
+
+}
+.contenedor_javascript{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    animation: dd 9s linear infinite;
+    
+}
+@keyframes dd {
+    0%{
+        
+        transform: translateY(100vh) scale(0);
+       
+    }
+    50%{
+        transform: translateX(50%);
+    }
+    100%{
+        transform: translateY(100vh);
+    }
+
+}
+.img_javascript{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+@keyframes dr{
+    0%{
+        
+        transform: translateX(-100%) scale(0);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(-1%);
+    }
+    100%{
+        transform: translateY(100vh);
+    }
+  
+
+    
+}
+@keyframes dt{
+    0%{
+        
+        transform: translateY(100vh) scale(0);
+       
+    }
+    50%{
+        transform: translateX(50%);
+    }
+    100%{
+        transform: translateY(100vh);
+    }
+   
+}
+.contendor_botstrap{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 0;
+    left: 60%;
+    animation: dd 9s linear infinite;
+}
+.img_bots{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.contenedor_react{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    bottom:50%;
+}
+.img_react{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    animation: pp 9s linear infinite;
+}
+@keyframes pp {
+    0%{
+        
+        transform: translateX(100%) scale(0);
+       
+    }
+    50%{
+        transform: translateX(400%);
+    }
+    70%{
+        transform: translateY(-100vh);
+    }
+
+}
+.contenedor_git{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+
+}
+.img_git{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    animation: ss 9s linear infinite;
+}
+@keyframes ss {
+    0%{
+        
+        transform: translatex(-100vh) scale(0);
+       
+    }
+    50%{
+        transform: translateX(400%);
+    }
+    70%{
+        transform: translateY(100vh);
+    }
+
+}
+.cont_front{
+    position: absolute;
+    width: 70%;
+    height: 20%;
+    left: 80%;
+    bottom: 9%;
+    transition: 2s;
+    
+}
+.letra_front{
+   position: relative;
+   width: 100%;
+   height: 100%;
+   font-size: 40px;
+   color: #000; 
+}
+.ti{
+    transform: translateX(-400px);
+    color: #000;
+    overflow: hidden;
+}

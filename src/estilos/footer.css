@@ -1,0 +1,128 @@
+#contenedor_footer{
+    display: grid;
+    grid-template-columns: (2,1fr);
+    grid-template-areas: "h i";
+    align-items: start;
+    color: #fff;
+}
+.footer_1{
+    transition: 1s;
+    grid-area: h;
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow:  hidden;
+    background-color: #000; 
+}
+.wasap{
+    position: absolute;
+    bottom: 60%;
+    left: 50%;
+}
+.a_wasap{
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+     text-decoration: none;
+     
+}
+.llover{
+position: absolute;
+width: 30px;
+height: 30px;
+background-color: #fff;
+margin:  4px;
+border-radius: 50%;
+
+left: 20%;
+animation: animate 11s linear infinite;
+}
+.llove{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+   border-radius: 50%;
+   right: 60% ;
+    animation: animate 8s linear infinite;
+}
+.llovr{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+   border-radius: 50%;
+   right: 90% ;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate {
+    0%{
+        transform: translateY(100vh) scale(0);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1);
+    }
+}
+.con_gyan{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+   border-radius: 50%;
+    right: 260px;
+  z-index: 20;
+    animation: animate 5s linear infinite;
+}
+.con_t{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color:#000;
+   border-radius: 50%;
+    right: 90px;
+  z-index: 20;
+    animation: animate 2s linear infinite;
+}
+.bbb{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+   border-radius: 50%;
+    right: 600px;
+  z-index: 20;
+    animation: animate 6s linear infinite;
+
+}
+.l{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+   border-radius: 50%;
+    right: 350px;
+  z-index: 20;
+    animation: animate 4s linear infinite;
+}
+.t{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+   border-radius: 50%;
+    right: 450px;
+  z-index: 20;
+    animation: animate 5s linear infinite;
+}
+.ultims_palabras{
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    left: 62%;
+}
+.ya{
+    position: absolute;
+    color: #000;
+    top: 30%;
+}
